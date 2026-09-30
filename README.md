@@ -35,3 +35,8 @@ A phase is closed only when its gate artefact is published **and** the checkpoin
 | [writing/](writing/) | Drafts of public write-ups ([TEMPLATE.md](writing/TEMPLATE.md)) |
 | `digest/` | Weekly quantum-threat digest archive and CRQC estimate — local only, not published |
 | [sources/](sources/) | [bibliography.md](sources/bibliography.md) and local copies of papers |
+
+## License
+
+- Code and everything else in this repository: [MIT](LICENSE).
+- Write-ups in [`writing/`](writing/): [CC BY 4.0](writing/LICENSE) — reuse with attribution.
