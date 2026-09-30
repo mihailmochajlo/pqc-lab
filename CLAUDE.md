@@ -15,7 +15,7 @@
 | `notes/phase-N-*/` | Study notes for that phase; `README.md` holds the topic checklist |
 | `labs/<lab>/` | One folder per lab; `README.md` holds goal and definition of done; code, results, notebooks live next to it |
 | `writing/` | Drafts of public write-ups, one file per piece, started from `TEMPLATE.md` |
-| `digest/` | Weekly quantum-threat digest archive (`YYYY-MM-DD.md`) and `crqc-estimate.md` |
+| `digest/` | Weekly quantum-threat digest archive (`YYYY-MM-DD.md`) and `crqc-estimate.md`. **Local only: git-ignored, never published.** |
 | `sources/` | `bibliography.md` (grouped by phase); `papers/` for local PDFs (git-ignored) |
 
 ## Core rule: every phase ends with an artefact
@@ -29,7 +29,7 @@
 1. Add a new entry at the top of the log (below the template), using the template: date, phase, hours (by bucket), done, learned, blocked, next week.
 2. Tick completed items in the relevant `notes/phase-*/README.md` and `labs/*/README.md` checklists.
 3. Update `README.md`: the `Current phase` line, `Last updated`, and the Status column of the phase table.
-4. Commit: `Log week N` (plus a short summary line). The commit includes that week's `digest/YYYY-MM-DD.md` files — the scheduled digest task saves files but never commits.
+4. Commit: `Log week N` (plus a short summary line). `digest/` is git-ignored and never committed.
 
 ## CRQC estimate
 
@@ -44,7 +44,7 @@
 
 ## Git and publishing
 
-- The repository is public. Anything committed is visible to everyone: no personal data, credentials, employer-internal material, or copyrighted PDFs (`sources/papers/` is git-ignored).
+- The repository is public. Anything committed is visible to everyone: no personal data, credentials, employer-internal material, copyrighted PDFs (`sources/papers/` is git-ignored), or the digest (`digest/` is git-ignored; it has no remote backup).
 - Git run from the Cowork sandbox cannot delete files in this folder without a per-session delete permission, so it leaves stale `.git/*.lock` and `tmp_obj_*` files after a commit. After committing from the sandbox, remove them (with delete permission) or commit from the local Git for Windows instead.
 
 ## Content rule

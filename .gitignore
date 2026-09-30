@@ -28,6 +28,9 @@ ipython_config.py
 *.pcap
 *.pcapng
 
+# Quantum-threat digest: local only, never published
+digest/
+
 # Local papers (copyrighted PDFs stay local)
 sources/papers/*
 !sources/papers/.gitkeep

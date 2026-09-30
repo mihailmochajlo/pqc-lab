@@ -33,5 +33,5 @@ A phase is closed only when its gate artefact is published **and** the checkpoin
 | [notes/](notes/) | Study notes per phase, with topic checklists |
 | [labs/](labs/) | Hands-on lab projects, each with a goal and definition of done |
 | [writing/](writing/) | Drafts of public write-ups ([TEMPLATE.md](writing/TEMPLATE.md)) |
-| [digest/](digest/) | Weekly quantum-threat digest archive; [crqc-estimate.md](digest/crqc-estimate.md) |
+| `digest/` | Weekly quantum-threat digest archive and CRQC estimate — local only, not published |
 | [sources/](sources/) | [bibliography.md](sources/bibliography.md) and local copies of papers |

@@ -34,7 +34,7 @@
 ## Practice (gate artefacts)
 - [ ] Stim surface-code memory d=3,5,7 + PyMatching, reproduce Google's suppression curve; publish notebook → [labs/stim-surface-code](../../labs/stim-surface-code/)
 - [ ] Shor on P-256 resource estimate in Azure Quantum Resource Estimator and Qualtran; explain gaps vs published numbers
-- [ ] Revise CRQC estimate with rationale → [digest/crqc-estimate.md](../../digest/crqc-estimate.md)
+- [ ] Revise CRQC estimate with rationale → `digest/crqc-estimate.md` (local only)
 
 ## Checkpoint (end of June)
 - [ ] Press release → primary source in 10 minutes → which of the eight blockers it moves, and by how much
