@@ -3,7 +3,7 @@
 ## Language
 
 - Every file in this repository — notes, code, comments, commit messages, drafts — is written in **English**.
-- Chat language does not leak into files.
+- Chat language does not leak into files. This includes the weekly digest: the chat reply is in Russian, the archived file in `digest/` is in English.
 
 ## Layout
 
@@ -29,7 +29,7 @@
 1. Add a new entry at the top of the log (below the template), using the template: date, phase, hours (by bucket), done, learned, blocked, next week.
 2. Tick completed items in the relevant `notes/phase-*/README.md` and `labs/*/README.md` checklists.
 3. Update `README.md`: the `Current phase` line, `Last updated`, and the Status column of the phase table.
-4. Commit: `Log week N` (plus a short summary line).
+4. Commit: `Log week N` (plus a short summary line). The commit includes that week's `digest/YYYY-MM-DD.md` files — the scheduled digest task saves files but never commits.
 
 ## CRQC estimate
 
@@ -41,6 +41,11 @@
 - Prefer primary sources: NIST FIPS, IETF drafts, arXiv/ePrint papers, vendor engineering blogs.
 - When a note cites a press release or news article, also link the underlying paper or standard and note what the headline omits.
 - Add every new source to `sources/bibliography.md` under its phase.
+
+## Git and publishing
+
+- The repository is public. Anything committed is visible to everyone: no personal data, credentials, employer-internal material, or copyrighted PDFs (`sources/papers/` is git-ignored).
+- Git run from the Cowork sandbox cannot delete files in this folder without a per-session delete permission, so it leaves stale `.git/*.lock` and `tmp_obj_*` files after a commit. After committing from the sandbox, remove them (with delete permission) or commit from the local Git for Windows instead.
 
 ## Content rule
 
